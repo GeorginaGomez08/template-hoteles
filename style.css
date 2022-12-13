@@ -1,0 +1,133 @@
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #434242;
+  top: calc(50% - 25px);
+  opacity: 0.8;
+}
+
+.carousel-control-like {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: none;
+}
+
+.carousel-control-prev {
+  left: 5%;
+}
+
+.carousel-control-next {
+  right: 5%;
+}
+
+.carousel-control-like {
+  top: 5%;
+  right: 5%;
+}
+
+.carousel-control-access {
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #001253;
+  color: #fff;
+  border: none;
+  top: 8%;
+  left: 8%;
+}
+
+.carousel-control-ads {
+  width: 80px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #fff;
+  color: #001253;
+  border: none;
+  bottom: 10%;
+  left: 8%;
+}
+
+.ofert-travel,
+.habit {
+  top: 92%;
+  right: 4%;
+  border: none;
+}
+
+.absoluteo-ofert {
+  background-color: #fed049;
+  border-radius: 15px;
+  width: 280px;
+  height: 30px;
+  position: absolute;
+  z-index: 1;
+}
+
+.ofert-hab {
+  background-color: #377d71;
+  border-radius: 15px;
+  width: max-content;
+  height: 30px;
+  position: absolute;
+  z-index: 1;
+  color: #fff;
+  padding: 10px;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-inner img {
+  width: 100%;
+  max-height: inherit;
+}
+
+.imageR {
+  width: auto;
+  height: 282px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.radius {
+  border-radius: 8px 0 0 8px;
+}
+
+.radius-img {
+  border-radius: 8px 8px 0 0;
+}
+
+@media (max-width: 572px) {
+  .carousel-inner {
+    height: 207px;
+  }
+
+  .carousel-inner img {
+    width: 100%;
+    max-height: inherit;
+  }
+}
+
+@media (min-width: 578px) {
+  .habit {
+    top: 94%;
+    right: 4%;
+  }
+  .image-R {
+    width: auto;
+    height: 282px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .radius {
+    border-radius: 8px 8px 0 0;
+  }
+}
